@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>etch-a-sketch project</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="title">drawing!!</h1>
+        </header>
+        <main class="main">
+            <div class="buttons">
+                <input id="color-picker" type="color" value="#333333" />
+                <button class="draw">Draw</button>
+                <button class="rainbow-mode">Rainbow mode</button>
+                <button class="eraser">Eraser</button>
+                <button class="clear">Clear drawing board</button>
+                <div class="size">16 x 16</div>
+                <input id="size-choice" type="range" value="16" min="1" max="100">
+            </div>
+
+            <div id="grid"></div>
+        </main>
+    </body>
+    <script src="script.js"></script>
+</html>
